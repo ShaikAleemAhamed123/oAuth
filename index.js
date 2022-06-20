@@ -1,8 +1,8 @@
 const express=require("express");
 const app=express();
 
-app.get("/",()=>{
-    res.send("<div>Hello World !</div>");
+app.get("/",(req,res)=>{
+    res.send("Hello World !");
 })
 
 
